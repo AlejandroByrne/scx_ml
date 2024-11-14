@@ -3,4 +3,4 @@
 	url = git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext.git
 [submodule "scx"]
 	path = scx
-	url = git@github.com:sched-ext/scx.git
+	url = git@github.com:AlejandroByrne/scx.git
