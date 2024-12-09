@@ -1,6 +1,6 @@
-[submodule "kernel"]
-	path = kernel
-	url = git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext.git
 [submodule "scx"]
 	path = scx
 	url = git@github.com:AlejandroByrne/scx.git
+[submodule "linux"]
+	path = linux
+	url = git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git
