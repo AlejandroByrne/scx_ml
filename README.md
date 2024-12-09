@@ -57,6 +57,15 @@ Once inside the container, navigate to the `scx` directory and compile your code
 
 Since `scx_ml` is shared between your bare-metal machine and the VM, you can now switch to your VM and run the newly generated executables.
 
+### How to run virtme-ng VM for testing schedulers
+1) cd into /linux
+2) run ```vng -v --build --config ../sched-ext.config```
+3) run ```make headers```
+4) cd into /scx
+5) run ```vng -vr ../linux```
+6) Now, run schedulers with ```sudo ./build/scheds/c/scheduler_name```
+
+
 ### How to run virtme VM for testing schedulers
 
 1) Go to the kernel source code and run these commands:
